@@ -14,6 +14,7 @@ class SecondScreenVC: UIViewController {
     var nameUser: String?
     var date : String?
     override func viewDidLoad() {
+        dateLable.text = "Your Age \(age) Year"
         super.viewDidLoad()
         collectioView.delegate = self
         collectioView.dataSource = self
@@ -29,7 +30,6 @@ class SecondScreenVC: UIViewController {
 
         let age = ageComponents.year!
         print(age)
-        dateLable.text = "Your Age \(age) Year"
     }
 }
 extension SecondScreenVC: UICollectionViewDelegate, UICollectionViewDataSource{
