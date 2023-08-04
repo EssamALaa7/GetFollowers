@@ -20,6 +20,7 @@ class FisrtScreenVC: UIViewController, UITextFieldDelegate {
         nameTF.delegate = self
         DatePicker()
         initialSetup()
+        print("Hello, from the other side (Adele) created by anas")
     }
     @objc func dateChanged(_ sender: UIDatePicker) {
             let components = Calendar.current.dateComponents([.year, .month, .day], from: sender.date)
