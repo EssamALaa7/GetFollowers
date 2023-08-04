@@ -30,6 +30,7 @@ class SecondScreenVC: UIViewController {
         let age = ageComponents.year!
         print(age)
         dateLable.text = "Your Age \(age) Year"
+        print("essam")
     }
 }
 extension SecondScreenVC: UICollectionViewDelegate, UICollectionViewDataSource{
