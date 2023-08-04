@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEBB2D852A76990E005750A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB2D842A76990E005750A8 /* AppDelegate.swift */; };
+		CEBB2D872A76990E005750A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB2D862A76990E005750A8 /* SceneDelegate.swift */; };
+		CEBB2D892A76990E005750A8 /* FisrtScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB2D882A76990E005750A8 /* FisrtScreenVC.swift */; };
+		CEBB2D8C2A76990E005750A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBB2D8A2A76990E005750A8 /* Main.storyboard */; };
+		CEBB2D8E2A769910005750A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBB2D8D2A769910005750A8 /* Assets.xcassets */; };
+		CEBB2D912A769910005750A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBB2D8F2A769910005750A8 /* LaunchScreen.storyboard */; };
+		CEBC1BE72A76B2850045EEC8 /* SecondScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC1BE62A76B2850045EEC8 /* SecondScreenVC.swift */; };
+		CEBC1BEB2A7718E10045EEC8 /* FollowersCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC1BE92A7718E10045EEC8 /* FollowersCollection.swift */; };
+		CEBC1BEC2A7718E10045EEC8 /* FollowersCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBC1BEA2A7718E10045EEC8 /* FollowersCollection.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEBB2D812A76990E005750A8 /* GetFollowers App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GetFollowers App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBB2D842A76990E005750A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEBB2D862A76990E005750A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEBB2D882A76990E005750A8 /* FisrtScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FisrtScreenVC.swift; sourceTree = "<group>"; };
+		CEBB2D8B2A76990E005750A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEBB2D8D2A769910005750A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBB2D902A769910005750A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEBB2D922A769910005750A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBC1BE62A76B2850045EEC8 /* SecondScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenVC.swift; sourceTree = "<group>"; };
+		CEBC1BE92A7718E10045EEC8 /* FollowersCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersCollection.swift; sourceTree = "<group>"; };
+		CEBC1BEA2A7718E10045EEC8 /* FollowersCollection.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FollowersCollection.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBB2D7E2A76990E005750A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBB2D782A76990E005750A8 = {
+			isa = PBXGroup;
+			children = (
+				CEBB2D832A76990E005750A8 /* GetFollowers App */,
+				CEBB2D822A76990E005750A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBB2D822A76990E005750A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB2D812A76990E005750A8 /* GetFollowers App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBB2D832A76990E005750A8 /* GetFollowers App */ = {
+			isa = PBXGroup;
+			children = (
+				CEBC1BE82A7718A20045EEC8 /* CollectionViewCell */,
+				CEBB2D842A76990E005750A8 /* AppDelegate.swift */,
+				CEBB2D862A76990E005750A8 /* SceneDelegate.swift */,
+				CEBB2D882A76990E005750A8 /* FisrtScreenVC.swift */,
+				CEBC1BE62A76B2850045EEC8 /* SecondScreenVC.swift */,
+				CEBB2D8A2A76990E005750A8 /* Main.storyboard */,
+				CEBB2D8D2A769910005750A8 /* Assets.xcassets */,
+				CEBB2D8F2A769910005750A8 /* LaunchScreen.storyboard */,
+				CEBB2D922A769910005750A8 /* Info.plist */,
+			);
+			path = "GetFollowers App";
+			sourceTree = "<group>";
+		};
+		CEBC1BE82A7718A20045EEC8 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEBC1BE92A7718E10045EEC8 /* FollowersCollection.swift */,
+				CEBC1BEA2A7718E10045EEC8 /* FollowersCollection.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBB2D802A76990E005750A8 /* GetFollowers App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBB2D952A769910005750A8 /* Build configuration list for PBXNativeTarget "GetFollowers App" */;
+			buildPhases = (
+				CEBB2D7D2A76990E005750A8 /* Sources */,
+				CEBB2D7E2A76990E005750A8 /* Frameworks */,
+				CEBB2D7F2A76990E005750A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GetFollowers App";
+			productName = "GetFollowers App";
+			productReference = CEBB2D812A76990E005750A8 /* GetFollowers App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBB2D792A76990E005750A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CEBB2D802A76990E005750A8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CEBB2D7C2A76990E005750A8 /* Build configuration list for PBXProject "GetFollowers App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBB2D782A76990E005750A8;
+			productRefGroup = CEBB2D822A76990E005750A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBB2D802A76990E005750A8 /* GetFollowers App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBB2D7F2A76990E005750A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBB2D912A769910005750A8 /* LaunchScreen.storyboard in Resources */,
+				CEBC1BEC2A7718E10045EEC8 /* FollowersCollection.xib in Resources */,
+				CEBB2D8E2A769910005750A8 /* Assets.xcassets in Resources */,
+				CEBB2D8C2A76990E005750A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBB2D7D2A76990E005750A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBC1BEB2A7718E10045EEC8 /* FollowersCollection.swift in Sources */,
+				CEBB2D892A76990E005750A8 /* FisrtScreenVC.swift in Sources */,
+				CEBC1BE72A76B2850045EEC8 /* SecondScreenVC.swift in Sources */,
+				CEBB2D852A76990E005750A8 /* AppDelegate.swift in Sources */,
+				CEBB2D872A76990E005750A8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEBB2D8A2A76990E005750A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBB2D8B2A76990E005750A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEBB2D8F2A769910005750A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBB2D902A769910005750A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBB2D932A769910005750A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEBB2D942A769910005750A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBB2D962A769910005750A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW4U5X9H9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GetFollowers App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Essam.GetFollowers-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEBB2D972A769910005750A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW4U5X9H9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GetFollowers App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Essam.GetFollowers-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBB2D7C2A76990E005750A8 /* Build configuration list for PBXProject "GetFollowers App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBB2D932A769910005750A8 /* Debug */,
+				CEBB2D942A769910005750A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBB2D952A769910005750A8 /* Build configuration list for PBXNativeTarget "GetFollowers App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBB2D962A769910005750A8 /* Debug */,
+				CEBB2D972A769910005750A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBB2D792A76990E005750A8 /* Project object */;
+}
